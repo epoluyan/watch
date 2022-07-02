@@ -1,0 +1,63 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.name {
+  padding-left: 15px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+}
+
+.name-container,
+.zone-container {
+  margin-left: 30px;
+}
+
+.form-btn {
+  display: flex;
+  margin-top: 17px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 21px;
+}
+
+.clocks-list {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  width:  300px
+}
+
+.clock-container {
+  width: 45%;
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #898989;
+}
+
+.clock-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin: 0px;
+}
